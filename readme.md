@@ -109,13 +109,13 @@ for this line, `"image_file":` is the key and must match what the API expects.
 `("File name of your choice", open('Path to the file here', 'rb'), 'image/jpg')` 
 
 
-The post request is populated and the responce is stored in response.
+The post request is populated, and the response is stored in response.
 `response = requests.post(url, data=post_data, files=files)`
 
-To convert the response back to useable json run.
+To convert the response back to usable json run.
 `result = json.loads(response.content)`
 
-The last 2 lines print out the response as
+The last 2 lines print out the response confirming post success as
 ```commandline
 {
     "id": 7,
@@ -127,3 +127,7 @@ The last 2 lines print out the response as
 
 Process finished with exit code 0
 ```
+
+
+# UML Diagram
+![Alt text](./uml.png)
