@@ -130,4 +130,4 @@ Process finished with exit code 0
 
 
 # UML Diagram
-![Alt text](./uml.png)
+![Alt text](https://github.com/AutonomousDev/Image_micro_service/blob/master/UML.png?raw=true)
