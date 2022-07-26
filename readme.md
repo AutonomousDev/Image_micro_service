@@ -1,3 +1,4 @@
+# Setup
 This project is made using Python 3.10
 
 To install dependencies run `pip install -r requirements.txt`
